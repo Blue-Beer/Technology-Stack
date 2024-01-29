@@ -200,7 +200,7 @@
     在进行查询时，优先将表内的数据先以**WHERE**进行筛选，再以**GROUP BY**分组，最后以**HAVING**子句进行约束。
 
    **多表连接查询**：
-   ![Alt text](http://192.168.100.92:9000/picbed/2024/01/25/202401250958305.png)  
+   ![JOIN  TABLES](images/SQL%20JOINS.png)  
    在进行多表查询时，条件发生的优先级: on 规定的条件在连接的时候生效，不满足的均被置为NULL，where 在连表生成后生效，最后生效的是having。
    - INNER JOIN
 

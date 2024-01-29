@@ -2,7 +2,7 @@
 
 ## HTTP 组件系统
 
-![HTTP 组件](image.png)
+![HTTP 组件](images/http-compoent.png)
 
 客户端 -- 客户端代理 -- 代理...代理 -- 服务器代理 -- 服务器
 
