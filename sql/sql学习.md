@@ -69,7 +69,7 @@
          select-strategy: not_empty
          insert-strategy: not_empty
          update-strategy: not_empty
-     type-handlers-package:  com.cr121.communal.common.data.handler 
+     type-handlers-package:  com.xx.communal.common.data.handler 
      configuration:
        jdbc-type-for-null: 'null'
    ```
@@ -79,8 +79,8 @@
    ```xml
    <?xml version="1.0" encoding="UTF-8"?>
    <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-   <mapper namespace="com.cr121.yangong.biz.adapter.driven.persistence.oracle.pricing.AAAAMapper">
-       <select id="findById" resultType="com.cr121.yangong.biz.adapter.driven.persistence.oracle.pricing.AAAAPo">
+   <mapper namespace="com.XXX.biz.adapter.driven.persistence.oracle.pricing.AAAAMapper">
+       <select id="findById" resultType="com.XXX.biz.adapter.driven.persistence.oracle.pricing.AAAAPo">
            select t.ID,
                   t.PROJECT_ID,
                   t.QUANTITY_SUBMIT_CUT_OFF_DATE as bizCutOffDate,
@@ -96,7 +96,7 @@
            where t.id = #{id}
        </select>
        
-       <select id="findByAAAAId" resultType="com.cr121.yangong.biz.adapter.driven.persistence.oracle.pricing.BBBBPo">
+       <select id="findByAAAAId" resultType="com.XXX.biz.adapter.driven.persistence.oracle.pricing.BBBBPo">
            select t.TEAM_ID,
                   t.TEAM_NAME
            from QUANTITY_SUBMITTING t

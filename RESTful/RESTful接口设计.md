@@ -48,3 +48,5 @@
    - 增加控制参数，添加动作相关的参数，通过修改参数来控制动作。比如一个博客网站，会有把写好的文章“发布”的功能，可以用上面的 POST /articles/{:id}/publish 方法，也可以在文章中增加 published:boolean 字段，发布的时候就是更新该字段 PUT /articles/{:id}?published=true
 
    - 把动作转换成资源，把动作转换成可以执行 CRUD 操作的资源， github 就是用了这种方法。
+
+[***RESTful 接口的后端实现***](./RESTful接口的后端实现.md)
