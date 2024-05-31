@@ -8,7 +8,7 @@
 
 - 在jar中打包的Application properties（application.properties 和 YAML）。
 - 在jar中打包的 特定的 Profile application properties（application-{profile}.properties 和 YAML）。
-- 在打包的jar之外的Application properties性（application.properties和YAML）。
+- 在打包的jar之外的Application properties（application.properties和YAML）。
 - 在打包的jar之外的特定的 Profile application properties（ application-{profile}.properties 和YAML）。
   
 对于同级别的配置文件 properties 的优先级高于 yaml。
